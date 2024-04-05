@@ -2,7 +2,7 @@ import axios from "axios";
 import getToken from "./getToken.tsx"
 
 const http = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'http://localhost:8889',
     timeout: 5000
 })
 
